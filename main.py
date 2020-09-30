@@ -1,16 +1,9 @@
-# from threading import Thread
 from selenium.webdriver.chrome.options import Options
-#from selenium.webdriver.firefox.options import Options
-from pyvirtualdisplay import Display
 from selenium import webdriver
 from bs4 import BeautifulSoup
 from datetime import datetime
 import time
 import csv
-
-#display = Display(visible=0, size=[800, 600])
-#display.start()
-
 
 # Constants
 options = webdriver.ChromeOptions()
